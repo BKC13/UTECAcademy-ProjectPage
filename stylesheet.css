@@ -1,0 +1,209 @@
+ body
+{
+	background-image: url('http://www.pulsarmedia.eu/data/media/3/Crystalcave_1920X1200_Wallpaper.jpg');
+	font-family: 'Bubblegum Sans', cursive;
+}
+#contenido
+{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+	color: #e44e2d;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 1px 1px 1px #aaa;
+}
+h2
+{
+	color: #1d1d1d;
+	font-family: 'Audiowide', cursive;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 20px;
+	color: #FFF;
+	font-family: 'Audiowide', cursive;
+	text-shadow: 1px 1px 1px #aaa;
+	cursor: pointer;
+}
+#nav li a 
+{
+	background-color: #D74B4B;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 16px;
+	display: block;
+}
+#nav li a:hover
+{
+	background-color: #434343;
+}
+
+
+#TextoPr
+{
+	width: 600px;
+	height: 300px;
+	background-image: url('http://www.pulsarmedia.eu/data/media/69/Minimalist%20Artwork%20Pulsarmedia%20Wallpaper.jpg');
+	color: #FF9900;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,5);
+}
+
+#contenido #TextoPr ul.social{
+position:relative;
+width:255px;
+height:30px;
+overflow:hidden;
+left:40%;
+margin-left: -114px;
+}
+#contenido #TextoPr ul.social li
+{
+display:block;
+position:relative;
+margin-left:20px;
+width:31px;
+height:30px;
+overflow:hidden;
+float:left;
+}
+#contenido #TextoPr ul.social li a
+{
+	display:block;
+	position:relative;
+	width:31px;
+	height:30px;
+	overflow:hidden;
+}
+#contenido #TextoPr ul li a#face:hover{
+-moz-transition-property: background-color;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-property: background-color;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-property: background-color;
+ -o-transition-duration: 0.5s;
+background-color: #0154A0;
+}
+#contenido #TextoPr ul li a#twt:hover{
+-moz-transition-property: background-color;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-property: background-color;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-property: background-color;
+ -o-transition-duration: 0.5s;
+background-color: #00B2FF;
+}
+#contenido #TextoPr ul li a#yut:hover{
+-moz-transition-property: background-color;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-property: background-color;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-property: background-color;
+ -o-transition-duration: 0.5s;
+background-color: #ee3631;
+}
+#contenido #TextoPr ul li a#in:hover{
+-moz-transition-property: background-color;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-property: background-color;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-property: background-color;
+ -o-transition-duration: 0.5s;
+background-color: #336699;
+}
+#contenido #TextoPr ul li a#vim:hover{
+-moz-transition-property: background-color;
+ -moz-transition-duration: 0.5s;
+ -webkit-transition-property: background-color;
+ -webkit-transition-duration: 0.5s;
+ -o-transition-property: background-color;
+ -o-transition-duration: 0.5s;
+background-color: #5B7778
+}
+h3
+{
+	font-family: 'Audiowide', cursive;
+	text-shadow: 1px 1px 1px #aaa;
+
+}
+a
+{
+	color: #e44e2d;
+	font-weight: bold;
+}
+
+
+
+
+<!--esto es un comentario -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#miCanvas
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+
+}
+meter
+{
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	color: #e44e2d;
+	margin-left: 20px;
+	width: 200px;
+}
+label
+{
+	display: block;
+}
+#btnSubmit
+{
+	border: none;
+	background-color: #FFF;
+	color:#4dafe3;
+	padding: 4px;
+	margin: 20px;
+	cursor: pointer;
+}
+#calificacion
+{
+	width: 150px;
+	-webkit-appearance:none;
+	background-color: #FFF;
+	height: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#calificacion::-webkit-slider-thumb
+{
+	-webkit-appearance:none;
+	background-color: #4dafe3;
+	border-radius: 10px;
+	height: 15px;
+	width: 10px;
+}
